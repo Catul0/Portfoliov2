@@ -1,0 +1,55 @@
+<div class="card"
+    style="padding-top: 10px; background-color: rgba(33,37,41,.8);  color: rgb(255, 255, 255);margin: auto; margin-top: 20px; width: 80%;"
+    id="proyectoss">
+    <h2>Proyectos</h2>
+    <hr/>
+    <div style="margin-right: 10px;margin-left:10px;">
+            <div
+                style="margin-top: 20px;"
+                *ngFor="let proyect of proyectos, index as i"
+            >
+            <div *ngIf="i%2==0" class="card mb-3" style="max-width: 100%; background-color: rgba(33,37,41,.8);">
+                <div class="row g-0" style="background:none;">
+                    <div class="col-md-4" id="contenedor">
+                        <img [src]="proyect.photo" id="imgProyecto" class="img-fluid rounded-start" alt="Imagenes de los proyectos">
+                        <img [src]="proyect.linkGif" class="img-fluid rounded-start" id="cubito" alt="gift de proyecto">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{proyect.nombreProyecto}}</h5>
+                            <p class="card-text">{{proyect.descripcionProyecto}}</p>
+                            <p class="card-text" style="text-align: center;"><small class="text-body-secondary">{{proyect.periodoProyecto}}</small></p>
+                            <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
+                                <a *ngIf="proyect.linkProyecto" title="{{proyect.linkProyecto}}" [href]="proyect.linkProyecto" target="_blank" class="btn btn-primary"><i class="bi bi-link-45deg"></i> Visitar sitio </a>
+                                <a *ngIf="proyect.linkGithub" title="{{proyect.linkGithub}}" [href]="proyect.linkGithub" target="_blank" class="btn btn-primary"> <i class="bi bi-github"></i> Github </a>
+                                <a *ngIf="proyect.linkDescarga" title="{{proyect.linkDescarga}}" [href]="proyect.linkDescarga" target="_blank" class="btn btn-primary"><i class="bi bi-download"></i> Descargar App</a>
+                                <a *ngIf="proyect.linkVideo" title="{{proyect.linkVideo}}" [href]="proyect.linkVideo" target="_blank" class="btn btn-primary"><i class="bi bi-camera-reels"></i> Ver Funcionamiento</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="i%2==1" class="card mb-3" style="max-width: 100%; background-color: rgba(33,37,41,.8); margin-top: 10px;">
+                <div class="row g-0" style="background:none;">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{proyect.nombreProyecto}}</h5>
+                            <p class="card-text">{{proyect.descripcionProyecto}}</p>
+                            <p class="card-text" style="text-align: center;"><small class="text-body-secondary">{{proyect.periodoProyecto}}</small></p>
+                            <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
+                                <a *ngIf="proyect.linkProyecto" title="{{proyect.linkProyecto}}" [href]="proyect.linkProyecto" target="_blank" class="btn btn-primary"><i class="bi bi-link-45deg"></i> Visitar sitio </a>
+                                <a *ngIf="proyect.linkGithub" title="{{proyect.linkGithub}}" [href]="proyect.linkGithub" target="_blank" class="btn btn-primary"> <i class="bi bi-github"></i> Github </a>
+                                <a *ngIf="proyect.linkDescarga" title="{{proyect.linkDescarga}}" [href]="proyect.linkDescarga" target="_blank" class="btn btn-primary"><i class="bi bi-download"></i> Descargar App</a>
+                                <a *ngIf="proyect.linkVideo"  title="{{proyect.linkVideo}}"  [href]="proyect.linkVideo" target="_blank" class="btn btn-primary"><i class="bi bi-camera-reels"></i> Ver Funcionamiento</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="contenedor">
+                        <img [src]="proyect.photo" id="imgProyecto" class="img-fluid rounded-end" alt="Imagenes de los proyectos">
+                        <img [src]="proyect.linkGif" class="img-fluid rounded-end" id="cubito" alt="gift de proyecto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

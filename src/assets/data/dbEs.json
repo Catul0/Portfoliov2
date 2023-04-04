@@ -1,0 +1,119 @@
+{
+  "portada": {
+    "id": 1,
+    "photo": "./assets/imagenes/imagen.webp",
+    "background": "./assets/imagenes/fotoFondo.jpg",
+    "nombre": "Valentin Sigaudo"
+  },
+  "sobreMi": [
+    {
+      "id": 3,
+      "titulo": "Full Stack Web Developer",
+      "texto": "Hola! Soy Valentín Sigaudo, tengo 23 años, estudiante de ingeniería en sistemas, Programador Full Stack Web. Aprendo rápido, estoy dispuesto a mejorar mis habilidades y  a conocer las tecnologías necesarias para trabajar."
+    }
+  ],
+  "misProyectos": [
+    {
+      "id": 0,
+      "photo": "./assets/imagenes/Portfoliov1.webp",
+      "nombreProyecto": "Mi portafolios personal v1",
+      "descripcionProyecto": "Esta pagina es la que uso para mostrar lo que se hacer, al igual que la pagina en la que se encuentra ahora, solo que esta es la version 1 de la misma, esta hecha con Angular y toma los datos de un archivo json.",
+      "periodoProyecto": "2 dias, 28/2/23 - 1/3/23",
+      "linkProyecto": "https://portfoliovseng.netlify.app",
+      "linkGithub":"https://github.com/Catul0/Portfoliov1.git",
+      "linkDescarga":"",
+      "linkVideo":"",
+      "linkGif":"./assets/imagenes/portfolio.gif"
+    },
+    {
+      "id": 1,
+      "photo": "./assets/imagenes/GeneralaAngular.webp",
+      "nombreProyecto": "Generala Angular",
+      "descripcionProyecto": "Generala hecha 100% por mi. Esta Realizada con Angular puro (TypeScript, HTML y CSS).Es un juego numerico, de dados, que consiste en formar combinaciones para GANAR! Se puede jugar encontra de la computadora o, 1 vs 1 con un amigo!",
+      "periodoProyecto": "2 dias, 28/2/23 - 1/3/23",
+      "linkProyecto": "https://generalavs.netlify.app",
+      "linkGithub":"https://github.com/Catul0/GeneralaAngular.git",
+      "linkDescarga":"",
+      "linkVideo":"",
+      "linkGif":"./assets/imagenes/generala.gif"
+    },
+    {
+      "id": 2,
+      "photo": "./assets/imagenes/climapp.webp",
+      "nombreProyecto": "ClimApp",
+      "descripcionProyecto": "Una pagina que muestra el estado del clima en tiempo real de cualquier ciudad del mundo. Esta hecha 100% con Angular (TypeScript, HTML y CSS) y consume una API para obtener los datos de 'openweathermap.org' ",
+      "periodoProyecto": "24 de febrero de 2023",
+      "linkProyecto": "https://climapplication.netlify.app",
+      "linkGithub":"https://github.com/Catul0/ClmiApp.git",
+      "linkDescarga":"",
+      "linkVideo":"",
+      "linkGif":"./assets/imagenes/climapp.gif"
+    },
+    {
+      "id": 3,
+      "photo": "./assets/imagenes/port.webp",
+      "nombreProyecto": "Portfolio Funcional [Proyecto Argentina Programa]",
+      "descripcionProyecto": "Este es el proyecto final del curso 'Argentina Programa 3: Yo programo'. Esta hecha Angular, Bootstrap, Java SpringBoot, MySQL. El deploy esta en CleverCloud, Render y Firebase. En el link referido hay un video que muestra el funcionamiento de la misma.",
+      "periodoProyecto": "2022 - 2023",
+      "linkProyecto": "",
+      "linkGithub":"https://github.com/Catul0/Portfolio-FrontEnd.git",
+      "linkDescarga":"",
+      "linkVideo":"https://youtu.be/FDocwSOm6cY",
+      "linkGif":"./assets/imagenes/portfolioAP.gif"
+    },
+    {
+      "id": 4,
+      "photo": "./assets/imagenes/andlu.webp",
+      "nombreProyecto": "ANDLUml",
+      "descripcionProyecto": "Es una app de cargado de animales para llevar registros de vacunaciones, nacimientos, etc. Se pueden cargar animales, ver lista, actualizarla, buscar por caravana, entre otras cosas. Esta hecho en Python con un sistema de base de datos MySQlite",
+      "periodoProyecto": "Septiembre 2021",
+      "linkProyecto": "",
+      "linkGithub":"",
+      "linkDescarga":"https://www.mediafire.com/file/czuint3rzbrve9v/ANDLUml2.zip/file",
+      "linkVideo":"https://www.youtube.com/watch?v=s4oUhQ-yAuY",
+      "linkGif":"./assets/imagenes/andlu.gif"
+    },
+    {
+      "id": 5,
+      "photo": "./assets/imagenes/generala.webp",
+      "nombreProyecto": "Generala",
+      "descripcionProyecto": "La generala es un juego de dados que consiste en tirar los dados y formar juegos con los numeros con la opcion de volver a tirar algunos dados para que se forme un juego este es un proyecto de la facultad y esta hecho completamente en C++",
+      "periodoProyecto": "2018",
+      "linkProyecto": "",
+      "linkGithub":"https://github.com/Catul0/Generala-C-",
+      "linkDescarga":"",
+      "linkVideo":"",
+      "linkGif":"./assets/imagenes/generalacpp.gif"
+    }
+  ],
+  "educacion": [
+    {
+      "id": 1,
+      "titulo": "Full Stack Web Developer",
+      "institucion": "CESSI e INTI - Argentina Programa",
+      "descripcion": "Java SpringBoot - Angular - MySQL - Scrum",
+      "periodo":" Julio 2022- Enero 2023"
+    },
+    {
+      "id": 2,
+      "titulo": "Python 3: Curso completo de cero a experto",
+      "institucion": "Udemy",
+      "descripcion": "-",
+      "periodo":"2021"
+    },
+    {
+      "id": 3,
+      "titulo": "Auxiliar bilingüe de Ingles",
+      "institucion": "En Instituto I.I.P.I N° 3026, Elisa - Santa Fe",
+      "descripcion": "Nivel de ingles Intermedio/Alto B2",
+      "periodo": "2012 - 2016"
+    },
+    {
+      "id": 4,
+      "titulo": "Bachiller en administración de empresas",
+      "institucion": "Escuela secundaria de Elisa Juan B. Alberdi 8159",
+      "descripcion": "-",
+      "periodo": "2012 - 2016"
+    }
+  ]
+}

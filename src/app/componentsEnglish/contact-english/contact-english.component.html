@@ -1,0 +1,31 @@
+<div class="card" id="contact"
+    style="padding: 10px; padding-bottom: 50px; background-color: rgba(33,37,41,.8); color: rgb(255, 255, 255); margin: auto; margin-top: 20px; width: 80%;">
+    <h2>Contact With Me!</h2>
+    <hr />
+    <form id="form" action="https://formspree.io/f/mpzeydla" method="POST" (submit)="onSubmit($event)">
+        <div *ngIf="opcion" class="alert alert-primary" role="alert">
+            {{alerta}}
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Name</label>
+                <input type="text" class="form-control" name="nombre" (ngModel)="nombre" id="nombre" required placeholder="Enter your Name.">
+         
+            </div>
+            <div class="col-md-6">
+                <label for="apellido" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="apellido" (ngModel)="apellido" id="apellido" required placeholder="Enter your Last Name.">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" (ngModel)="email" id="email" required placeholder="Enter a valid email.">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea type="text" class="form-control" name="message" (ngModel)="message" id="message"
+                required placeholder="Put your message here!"></textarea>
+        </div>
+        <button class="btn btn-primary" id="buttonsubmit" type="submit">Send</button>
+    </form>
+</div>

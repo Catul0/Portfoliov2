@@ -1,0 +1,26 @@
+#form{
+    width: 80%;
+    margin: auto;
+}
+
+#buttonsubmit{
+    width: 100%;
+    margin-top: 10px;
+    border: solid 1px lightblue;
+}
+hr {
+    background-color: rgb(250, 250, 250, 0.8);
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+h2{
+    margin: auto;
+}
+
+@media screen and ( max-width: 600px) {
+    #form{
+        width: 100%;
+        margin: auto;
+    }
+}

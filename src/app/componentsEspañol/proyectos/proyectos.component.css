@@ -1,0 +1,54 @@
+img{
+    object-fit: cover;
+}
+a{
+    border: solid 1px lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45%;
+}
+hr {
+    background-color: rgb(250, 250, 250, 0.8);
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+h2{
+    margin: auto;
+}
+section[id]{
+    scroll-margin-top: 100px;
+}
+#contenedor{
+    z-index: 0;
+    position: relative;
+}
+#imgProyecto{
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#imgProyecto:hover{
+    opacity: 0;
+}
+#cubito{
+    position: absolute;
+    background-color: blue;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+@media screen and ( max-width: 600px) {
+    a{
+        border: solid 1px lightblue;
+        margin:auto;
+        margin-top: 10px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,62 @@
+<nav class="navbar navbar-dark bg-black fixed-top" style=" max-height: 55px; padding-top:5px ;">
+  <div class="container-fluid">
+    <p class="navbar-brand" style="margin: auto;  margin-left: 0;">
+      < VS />
+    </p>
+    <div style="max-height: 50px; margin: auto; margin-right: 5px;">
+      <button class="btn btn-dark me-md-2" type="button"><a class="nav-link active" style="color:grey"
+          routerLink="/home" aria-current="page">English</a></button>
+      <button class="btn btn-dark " id="botontoggle" data-bs-toggle="offcanvas" style="color:grey; height: 39px;"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" type="button"><span
+          class="navbar-toggler-icon"></span></button>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" style="box-shadow: none;" id="offcanvasDarkNavbar"
+    aria-labelledby="offcanvasDarkNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu de Navegacion</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#portada"
+            (click)="scrollToComponent($event, 'portada')">Inicio</a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link active" aria-current="page" href="#habilidades"
+            (click)="scrollToComponent($event, 'habilidades')">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#proyectoss"
+            (click)="scrollToComponent($event, 'proyectoss')">Proyectos</a>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#contacto"
+            (click)="scrollToComponent($event, 'contacto')">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" target="_blank"
+            href="https://drive.google.com/file/d/1x3oSnrzGeGYI7X40mP3PyC_Zjb9p-DfL/view">Curriculum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" target="_blank" href="https://github.com/Catul0">Github</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Redes Sociales
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="https://www.instagram.com/vale.sigaudo" target="_blank">Instagram</a>
+            </li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/valesigaudo/" target="_blank">linked In</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="overlay"></div>

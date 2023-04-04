@@ -1,0 +1,24 @@
+<div
+  id="portada"
+  class="card text-bg-dark" 
+  style="margin-top: 45px; border-radius: 0;"
+  
+>
+    <img 
+      [src]="portadaa.background" 
+      class="card-img"
+      alt="imagen de fondo de la portada"
+      style="height:350px; background-repeat: no-repeat; background-size:cover; background-attachment: fixed; background-position: center; " 
+    >
+    <div class="card-img-overlay text-start" style="margin:auto; width: 80%; margin-top:85px;">
+      <img 
+        [src]="portadaa.photo" 
+        class="rounded-circle" 
+        alt="imagen de perfil"
+        style="object-fit: cover; object-position: top;height: 200px;width: 200px;" 
+      >
+      <h1 class="card-title bg-dark bg-opacity-50">
+        {{portadaa.nombre}}
+      </h1>
+    </div>
+</div>

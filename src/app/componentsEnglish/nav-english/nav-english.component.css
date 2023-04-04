@@ -1,0 +1,8 @@
+.btn-dark{
+    border:solid 1px rgb(60,60,60);
+}
+@media screen and ( max-width: 600px) {
+    #botontoggle{
+        margin-left: 10px;
+    }
+}

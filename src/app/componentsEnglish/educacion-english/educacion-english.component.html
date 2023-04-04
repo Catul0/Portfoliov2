@@ -1,0 +1,36 @@
+<div class="card" style="padding: 10px; background-color: rgba(33,37,41,.8); color: rgb(255, 255, 255); margin: auto; margin-top: 20px; width: 80%;">
+    <h2>Academic Studies</h2>
+    <hr/>
+    <div>
+        <div class="card-body"  *ngFor="let edu of miEducation">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-11" style="width: 100%; background: none;">
+                <table class="table" class="card"  style="background: none;" >
+                    <tr >
+                        <div class="card-header">
+                            <h3 class="card-title">{{edu.titulo}}</h3>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-8">
+                            <p class="card-text"><b>Institution:</b> {{edu.institucion}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-8">
+                            <p class="card-text"><b>Description:</b> {{edu.descripcion}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-8">
+                            <p class="card-text"><b>Period:</b> {{edu.periodo}}</p>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

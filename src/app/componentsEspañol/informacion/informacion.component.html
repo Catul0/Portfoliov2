@@ -1,0 +1,9 @@
+<div class="card" style="background: none; border:none;">
+    <div *ngFor="let inf of info;" class="card"
+        style="padding: 10px; background-color: rgba(33,37,41,.8); color: rgb(255, 255, 255); margin: auto; margin-top: 20px; width: 80%;">
+        <h2>Sobre Mi</h2>
+        <hr />
+        <h3 class="card-title">{{inf.titulo}}</h3>
+        <p class="card-text">{{inf.texto}}</p>
+    </div>
+</div>
