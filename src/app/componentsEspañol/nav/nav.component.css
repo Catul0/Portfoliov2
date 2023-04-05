@@ -28,6 +28,9 @@ section[id]{
 h1{
     color: white;
 }
+h1:hover{
+    color: white;
+}
 @media screen and ( max-width: 1000px) {
     #navMobile{
         visibility: visible;
