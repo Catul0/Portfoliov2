@@ -4,24 +4,37 @@
 section[id]{
     scroll-margin-top: 200px;
 }
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-    background-color: rgba(0, 0, 0, 0.5);
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
   .overlay.show {
     pointer-events: auto;
     opacity: 1;
   }
-@media screen and ( max-width: 600px) {
+  #navMobile{
+    visibility: hidden;
+}
+#navDesktop a{
+    color: white;
+}
+
+#navDesktop{
+    visibility: visible;
+    padding: auto;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+@media screen and ( max-width: 1000px) {
+    #navMobile{
+        visibility: visible;
+    }
+    #navDesktop{
+        visibility: hidden;
+    }
     #botontoggle{
         margin-left: 10px;
     }
