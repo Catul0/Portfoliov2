@@ -62,7 +62,7 @@
     {
       "id": 4,
       "photo": "./assets/imagenes/port.webp",
-      "nombreProyecto": "Portfolio Funcional Propio (esta misma pagina)",
+      "nombreProyecto": "Functional Portfolio [ Argentina Program's Project ]",
       "descripcionProyecto": "This is the final project of the 'Argentina Programa 3' course. It is made using Angular, Bootstrap, SpringBoot, MySQL, Java. The deployment is on CleverCloud, Render, and Firebase. In the referred link, there is a video showing how it works.",
       "periodoProyecto": "2022 - 2023",
       "linkProyecto": "",
