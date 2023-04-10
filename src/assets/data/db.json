@@ -15,6 +15,17 @@
   "misProyectos": [
     {
       "id": 0,
+      "photo": "./assets/imagenes/marcos.webp",
+      "nombreProyecto": "Personal Trainer Web Site",
+      "descripcionProyecto": "Contact page and information about a personal trainer client, made in Angular with TypeScript and contact forms. [Still under development, images are only representative, it is a beta]",
+      "periodoProyecto": "3 days, 3/4/23 - 5/4/23",
+      "linkProyecto": "https://marcossaluzzo.netlify.app",
+      "linkGithub":"https://github.com/Catul0/PersonalTrainer-Beta",
+      "linkDescarga":"",
+      "linkVideo":"",
+      "linkGif":"./assets/imagenes/marcos.gif"
+    },{
+      "id": 1,
       "photo": "./assets/imagenes/Portfoliov1.webp",
       "nombreProyecto": "My personal portfolio v1",
       "descripcionProyecto": "This page is the one I use to showcase what I can do, just like the page you are currently on, except this is version 1 of it. It is made with Angular and takes data from a JSON file.",
@@ -25,7 +36,7 @@
       "linkVideo":"",
       "linkGif":"./assets/imagenes/portfolio.gif"
     },{
-      "id": 1,
+      "id": 2,
       "photo": "./assets/imagenes/GeneralaAngular.webp",
       "nombreProyecto": "Generala Angular",
       "descripcionProyecto": "Generala made 100% by me. It is built using pure Angular (TypeScript, HTML, and CSS). It is a dice game that involves forming combinations to WIN! You can play against the computer or 1 vs 1 with a friend!",
@@ -37,7 +48,7 @@
       "linkGif":"./assets/imagenes/generala.gif"
     },
     {
-      "id": 2,
+      "id": 3,
       "photo": "./assets/imagenes/climapp.webp",
       "nombreProyecto": "ClimApp",
       "descripcionProyecto":"A webpage that shows the real-time weather status of any city in the world. It is made 100% with Angular (TypeScript, HTML, and CSS)." ,
@@ -49,7 +60,7 @@
       "linkGif":"./assets/imagenes/climapp.gif"
     },
     {
-      "id": 3,
+      "id": 4,
       "photo": "./assets/imagenes/port.webp",
       "nombreProyecto": "Portfolio Funcional Propio (esta misma pagina)",
       "descripcionProyecto": "This is the final project of the 'Argentina Programa 3' course. It is made using Angular, Bootstrap, SpringBoot, MySQL, Java. The deployment is on CleverCloud, Render, and Firebase. In the referred link, there is a video showing how it works.",
@@ -61,7 +72,7 @@
       "linkGif":"./assets/imagenes/portfolioAP.gif"
     },
     {
-      "id": 4,
+      "id": 5,
       "photo": "./assets/imagenes/andlu.webp",
       "nombreProyecto": "ANDLUml",
       "descripcionProyecto": "It is an animal management app for keeping records of vaccinations, nativities, etc. You can load animals, view a list, update it, search by tag number, among other things. It is made in Python with a MySQlite database system.",
@@ -73,7 +84,7 @@
       "linkGif":"./assets/imagenes/andlu.gif"
     },
     {
-      "id": 5,
+      "id": 6,
       "photo": "./assets/imagenes/generala.webp",
       "nombreProyecto": "Generala",
       "descripcionProyecto": "Generala is a dice game that consists of rolling the dice and forming games with the numbers, with the option of rolling some dice again to form a game. This is a college project and it is entirely made in C++.",

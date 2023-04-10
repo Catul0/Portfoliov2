@@ -15,6 +15,17 @@
   "misProyectos": [
     {
       "id": 0,
+      "photo": "./assets/imagenes/marcos.webp",
+      "nombreProyecto": "Pagina de Personal Trainer",
+      "descripcionProyecto": "Pagina de contacto e informacion sobre un cliente personal trainer, hecha en Angular con TypeScript y formularios de contacto,[Aun esta en desarrollo, las imagenes son solo representativas, es una beta]",
+      "periodoProyecto": "3 dias, 3/4/23 - 5/4/23",
+      "linkProyecto": "https://marcossaluzzo.netlify.app",
+      "linkGithub":"https://github.com/Catul0/PersonalTrainer-Beta",
+      "linkDescarga":"",
+      "linkVideo":"",
+      "linkGif":"./assets/imagenes/marcos.gif"
+    },{
+      "id": 1,
       "photo": "./assets/imagenes/Portfoliov1.webp",
       "nombreProyecto": "Mi portafolios personal v1",
       "descripcionProyecto": "Esta pagina es la que uso para mostrar lo que se hacer, al igual que la pagina en la que se encuentra ahora, solo que esta es la version 1 de la misma, esta hecha con Angular y toma los datos de un archivo json.",
@@ -26,7 +37,7 @@
       "linkGif":"./assets/imagenes/portfolio.gif"
     },
     {
-      "id": 1,
+      "id": 2,
       "photo": "./assets/imagenes/GeneralaAngular.webp",
       "nombreProyecto": "Generala Angular",
       "descripcionProyecto": "Generala hecha 100% por mi. Esta Realizada con Angular puro (TypeScript, HTML y CSS).Es un juego numerico, de dados, que consiste en formar combinaciones para GANAR! Se puede jugar encontra de la computadora o, 1 vs 1 con un amigo!",
@@ -38,7 +49,7 @@
       "linkGif":"./assets/imagenes/generala.gif"
     },
     {
-      "id": 2,
+      "id": 3,
       "photo": "./assets/imagenes/climapp.webp",
       "nombreProyecto": "ClimApp",
       "descripcionProyecto": "Una pagina que muestra el estado del clima en tiempo real de cualquier ciudad del mundo. Esta hecha 100% con Angular (TypeScript, HTML y CSS) y consume una API para obtener los datos de 'openweathermap.org' ",
@@ -50,7 +61,7 @@
       "linkGif":"./assets/imagenes/climapp.gif"
     },
     {
-      "id": 3,
+      "id": 4,
       "photo": "./assets/imagenes/port.webp",
       "nombreProyecto": "Portfolio Funcional [Proyecto Argentina Programa]",
       "descripcionProyecto": "Este es el proyecto final del curso 'Argentina Programa 3: Yo programo'. Esta hecha Angular, Bootstrap, Java SpringBoot, MySQL. El deploy esta en CleverCloud, Render y Firebase. En el link referido hay un video que muestra el funcionamiento de la misma.",
@@ -62,7 +73,7 @@
       "linkGif":"./assets/imagenes/portfolioAP.gif"
     },
     {
-      "id": 4,
+      "id": 5,
       "photo": "./assets/imagenes/andlu.webp",
       "nombreProyecto": "ANDLUml",
       "descripcionProyecto": "Es una app de cargado de animales para llevar registros de vacunaciones, nacimientos, etc. Se pueden cargar animales, ver lista, actualizarla, buscar por caravana, entre otras cosas. Esta hecho en Python con un sistema de base de datos MySQlite",
@@ -74,7 +85,7 @@
       "linkGif":"./assets/imagenes/andlu.gif"
     },
     {
-      "id": 5,
+      "id": 6,
       "photo": "./assets/imagenes/generala.webp",
       "nombreProyecto": "Generala",
       "descripcionProyecto": "La generala es un juego de dados que consiste en tirar los dados y formar juegos con los numeros con la opcion de volver a tirar algunos dados para que se forme un juego este es un proyecto de la facultad y esta hecho completamente en C++",
