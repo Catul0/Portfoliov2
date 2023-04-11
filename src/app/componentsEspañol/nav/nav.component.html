@@ -4,10 +4,10 @@
       < VS />
     </p>
     <div style="max-height: 50px; margin: auto; margin-right: 5px;">
-      <button class="btn btn-dark me-md-2" type="button"><a class="nav-link active" style="color:grey"
+      <button class="btn btn-dark me-md-2" type="button" id="boton-mobile"><a class="nav-link active" style="color:grey"
           routerLink="/home" aria-current="page">English</a></button>
       <button class="btn btn-dark " id="botontoggle" data-bs-toggle="offcanvas" style="color:grey; height: 39px;"
-        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" type="button"><span
+        data-bs-target="#offcanvasDarkNavbar" id="boton-mobile" aria-controls="offcanvasDarkNavbar" type="button"><span
           class="navbar-toggler-icon"></span></button>
     </div>
   </div>
@@ -61,7 +61,7 @@
 </nav>
 
 
-
+<!--ACA ABAJO ESTA EL NAV DE COMPUTADORA-->
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navDesktop">
   <div class="container-fluid">
@@ -73,20 +73,20 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#portada"
+          <a class="btn btn-dark" aria-current="page" href="#portada"
             (click)="scrollToComponent($event, 'portada')">Inicio</a>
         </li>
-        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#habilidades"
+        <li class="nav-item"><a class="btn btn-dark" aria-current="page" href="#habilidades"
             (click)="scrollToComponent($event, 'habilidades')">Habilidades</a></li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#proyectoss"
+          <a class="btn btn-dark" aria-current="page" href="#proyectoss"
             (click)="scrollToComponent($event, 'proyectoss')">Proyectos</a>
         </li>
         <li>
-          <a class="nav-link active" aria-current="page" href="#contacto"
+          <a class="btn btn-dark" aria-current="page" href="#contacto"
             (click)="scrollToComponent($event, 'contacto')">Contacto</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="btn btn-dark dropdown" style="height: 40px; margin: auto; padding-top: 0;">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Redes Sociales
           </a>
