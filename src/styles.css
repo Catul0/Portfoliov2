@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Establecer el color de fondo del pulgar de la scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 10px;
+  }
+  
+  /* Establecer el color de fondo del track de la scrollbar */
+  ::-webkit-scrollbar-track {
+    background-color: black;
+  }

@@ -1,3 +1,19 @@
 section[id]{
     scroll-margin-top: 100px;
 }
+
+/* Aplica estilos a toda la scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la scrollbar */
+  }
+  
+  /* Aplica estilos al pulgar de la scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background-color: black; /* Color de fondo del pulgar */
+    border-radius: 10px; /* Radio de esquinas del pulgar */
+  }
+  
+  /* Aplica estilos al track de la scrollbar */
+  ::-webkit-scrollbar-track {
+    background-color: blue; /* Color de fondo del track */
+  }

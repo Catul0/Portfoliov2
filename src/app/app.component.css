@@ -1,3 +1,20 @@
 html{
     scroll-behavior: smooth;
 }
+
+/* Aplica estilos a toda la scrollbar */
+::-webkit-scrollbar-vertical {
+    width: 10px; /* Ancho de la scrollbar */
+    background-color: black;
+  }
+  
+  /* Aplica estilos al pulgar de la scrollbar */
+  ::-webkit-scrollbar-thumb {
+    /* Color de fondo del pulgar */
+    border-radius: 10px; /* Radio de esquinas del pulgar */
+  }
+  
+  /* Aplica estilos al track de la scrollbar */
+  ::-webkit-scrollbar-track {
+    background-color: blue; /* Color de fondo del track */
+  }
