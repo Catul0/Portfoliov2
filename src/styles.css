@@ -5,7 +5,7 @@
   
   /* Establecer el color de fondo del pulgar de la scrollbar */
   ::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: rgb(40,40,40);
     border-radius: 10px;
   }
   
