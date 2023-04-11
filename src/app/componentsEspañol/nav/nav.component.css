@@ -11,10 +11,10 @@ section[id]{
   #navMobile{
     visibility: hidden;
 }
+
 #navDesktop a{
     color: white;
 }
-
 #navDesktop{
     visibility: visible;
     padding: auto;
@@ -31,6 +31,20 @@ h1{
 h1:hover{
     color: white;
 }
+.nav-item #english{
+    height: 37px;
+    background-color: black;
+    border: none;
+    bottom: 0;
+    transition-duration: all 2s;
+    
+}
+
+.nav-item #english:hover{
+    background: url("/assets/imagenes/ingles4.webp");
+    text-shadow: 2px 2px #000000;
+}
+
 @media screen and ( max-width: 1000px) {
     #navMobile{
         visibility: visible;
