@@ -42,12 +42,11 @@ h1:hover{
     background-color: black;
     border: none;
     bottom: 0;
-    transition-duration: all 2s;
-    
+    transition: all 1s;
 }
-
-.nav-item #english:hover{
-    background: url("/assets/imagenes/ingles4.webp");
+#english:hover{
+    background-color: #000000;
+    background: center url("/assets/imagenes/ingles.webp");
     text-shadow: 2px 2px #000000;
 }
 
