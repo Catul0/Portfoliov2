@@ -7,3 +7,13 @@ hr {
 h2{
     margin: auto;
 }
+.cv{
+    margin: auto;
+    width: 30%;
+}
+@media screen and ( max-width: 1000px) {
+    .cv{
+        margin: auto;
+        width: 80%;
+    }
+}
