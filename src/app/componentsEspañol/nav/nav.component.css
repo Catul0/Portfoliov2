@@ -45,7 +45,6 @@ h1:hover{
     transition: all 1s;
 }
 #english:hover{
-    background-color: #000000;
     background: center url("/assets/imagenes/ingles.webp");
     text-shadow: 2px 2px #000000;
 }

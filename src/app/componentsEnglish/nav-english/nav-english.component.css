@@ -1,13 +1,27 @@
 .btn-dark{
-    border:solid 1px rgb(60,60,60);
+    background-color: black;
+    border: none;
+    height: 40px;
+    padding-top: 8px;
 }
-#navMobile{
+#boton-mobile{
+    border:solid 1px rgb(60,60,60);
+    background-color: rgb(40,40,40) ;
+}
+section[id]{
+    scroll-margin-top: 200px;
+}
+  .overlay.show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+  #navMobile{
     visibility: hidden;
 }
+
 #navDesktop a{
     color: white;
 }
-
 #navDesktop{
     visibility: visible;
     padding: auto;
@@ -24,6 +38,17 @@ h1{
 h1:hover{
     color: white;
 }
+.nav-item #english{
+    background-color: black;
+    border: none;
+    bottom: 0;
+    transition: all 1s;
+}
+#english:hover{
+    background: center url("/assets/imagenes/español.webp");
+    text-shadow: 2px 2px #000000;
+}
+
 @media screen and ( max-width: 1000px) {
     #navMobile{
         visibility: visible;

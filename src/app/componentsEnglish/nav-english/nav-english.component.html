@@ -1,52 +1,67 @@
-<nav class="navbar navbar-dark bg-black fixed-top" style="max-height: 55px; padding-top:5px ;" id="navMobile" >
+<nav id="navMobile" class="navbar navbar-dark bg-black fixed-top" style=" max-height: 55px; padding-top:5px ;">
   <div class="container-fluid">
-    <p class="navbar-brand" style="margin: auto;  margin-left: 0;"> < VS /></p>
-    <div  style="max-height: 50px; margin: auto; margin-right: 5px;">
-      <button class="btn btn-dark me-md-2" type="button"><a class="nav-link active" style="color:grey" routerLink="/inicio" aria-current="page">Spanish</a></button>
-      <button class="btn btn-dark " id="botontoggle" data-bs-toggle="offcanvas" style="color:grey; height: 39px;" data-bs-target="#offcanvasDarkNavbar"aria-controls="offcanvasDarkNavbar"type="button"><span class="navbar-toggler-icon"></span></button>
+    <p class="navbar-brand" style="margin: auto;  margin-left: 0;">
+      < VS />
+    </p>
+    <div style="max-height: 50px; margin: auto; margin-right: 5px;">
+      <button class="btn btn-dark me-md-2" type="button" id="boton-mobile"><a class="nav-link active" style="color:grey"
+          routerLink="/inicio" aria-current="page">Spanish</a></button>
+      <button class="btn btn-dark " id="botontoggle" data-bs-toggle="offcanvas" style="color:grey; height: 39px;"
+        data-bs-target="#offcanvasDarkNavbar" id="boton-mobile" aria-controls="offcanvasDarkNavbar" type="button"><span
+          class="navbar-toggler-icon"></span></button>
     </div>
   </div>
-  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
+  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" style="box-shadow: none;" id="offcanvasDarkNavbar"
+    aria-labelledby="offcanvasDarkNavbarLabel">
+    <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigation Menu</h5>
       <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#portada-ingles" (click)="scrollToComponentEnglish($event, 'portada-ingles')">Home</a>
-      </li>
-      <li class="nav-item">
-        
-        <a class="nav-link active" aria-current="page" href="#skills" (click)="scrollToComponentEnglish($event, 'skills')">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active"aria-current="page" href="#proyects" (click)="scrollToComponentEnglish($event, 'proyects')">Proyects</a>
-      </li>
-      <li>
-        <a class="nav-link active"aria-current="page" href="#contact" (click)="scrollToComponentEnglish($event, 'contact')">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" target="_blank" href="https://drive.google.com/file/d/1J2zCFvbp1rs3dLL_bPpup1s-49zdzu3v/view?usp=sharing">Curriculum Vitae</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" target="_blank" href="https://github.com/Catul0">Github</a>
-      </li>
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Social Networks
-        </a> 
-        <ul class="dropdown-menu dropdown-menu-dark">
-          <li><a class="dropdown-item" href="https://www.instagram.com/vale.sigaudo" target="_blank">Instagram</a></li>
-          <li><a class="dropdown-item" href="https://www.linkedin.com/in/valesigaudo/" target="_blank">linked In</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#portada-ingles"
+            (click)="scrollToComponentEnglish($event, 'portada-ingles')">Home</a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link active" aria-current="page" href="#skills"
+            (click)="scrollToComponentEnglish($event, 'skills')">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#proyects"
+            (click)="scrollToComponentEnglish($event, 'proyects')">Proyects</a>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#contact"
+            (click)="scrollToComponentEnglish($event, 'contact')">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" target="_blank"
+            href="https://drive.google.com/file/d/1J2zCFvbp1rs3dLL_bPpup1s-49zdzu3v/view?usp=sharing">Curriculum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" target="_blank" href="https://github.com/Catul0">Github</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Redes Sociales
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="https://www.instagram.com/vale.sigaudo" target="_blank">Instagram</a>
+            </li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/valesigaudo/" target="_blank">linked In</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 
+
+<!--ACA ABAJO ESTA EL NAV DE COMPUTADORA-->
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navDesktop">
   <div class="container-fluid">
@@ -58,38 +73,31 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#portada-ingles" (click)="scrollToComponentEnglish($event, 'portada-ingles')">Home</a>
+          <a class="btn btn-dark" aria-current="page" href="#portada-ingles"
+            (click)="scrollToComponentEnglish($event, 'portada-ingles')">Home</a>
         </li>
+        <li class="nav-item"><a class="btn btn-dark" aria-current="page" href="#skills"
+            (click)="scrollToComponentEnglish($event, 'skills')">Skills</a></li>
         <li class="nav-item">
-          
-          <a class="nav-link active" aria-current="page" href="#skills" (click)="scrollToComponentEnglish($event, 'skills')">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active"aria-current="page" href="#proyects" (click)="scrollToComponentEnglish($event, 'proyects')">Proyects</a>
+          <a class="btn btn-dark" aria-current="page" href="#proyects"
+            (click)="scrollToComponentEnglish($event, 'proyects')">Proyects</a>
         </li>
         <li>
-          <a class="nav-link active"aria-current="page" href="#contact" (click)="scrollToComponentEnglish($event, 'contact')">Contact</a>
+          <a class="btn btn-dark" aria-current="page" href="#contact"
+            (click)="scrollToComponentEnglish($event, 'contact')">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" target="_blank" href="https://drive.google.com/file/d/1J2zCFvbp1rs3dLL_bPpup1s-49zdzu3v/view?usp=sharing">Curriculum Vitae</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" target="_blank" href="https://github.com/Catul0">Github</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/inicio">Spanish</a>
-        </li>
-        <li class="nav-item dropdown">
+        <li class="btn btn-dark dropdown" style="height: 40px; margin: auto; padding-top: 0;">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Social Networks
           </a>
           <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="https://www.instagram.com/vale.sigaudo" target="_blank">Instagram</a>
-            </li>
-            <li><a class="dropdown-item" href="https://www.linkedin.com/in/valesigaudo/" target="_blank">linked In</a>
-            </li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/vale.sigaudo" target="_blank">Instagram</a></li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/valesigaudo/" target="_blank">linked In</a></li>
+            <li><a class="dropdown-item" href="https://github.com/Catul0" target="_blank">Github</a></li>
           </ul>
+        </li>
+        <li class="nav-item" style="margin-right:5px">
+          <a class="btn btn-dark" aria-current="page" routerLink="/inicio" id="english">Spanish</a>
         </li>
       </ul>
     </div>
